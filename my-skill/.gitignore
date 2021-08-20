@@ -1,0 +1,8 @@
+dist
+node_modules
+.idea
+.env
+yarn-error.log
+skill-error.log
+.babel-cache
+.DS_Store

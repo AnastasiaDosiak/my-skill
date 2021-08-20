@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "identifier": "my-skill",
+  "version": "0.0.1",
+  "name": "ISBN skill",
+  "description": "Look for ISBN book code, provide users with some information about it, like title, cover and the link to buy it on Amazon, automatically",
+  "icon": "icon.png",
+  "background_script": "background.js",
+  "content_script": "content.js",
+  "matcher_script": "matcher.js",
+  "matcher_api_version": 2
+}

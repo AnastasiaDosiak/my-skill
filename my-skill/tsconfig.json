@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "sourceMap": false,
+    "jsx": "react",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "typeRoots": [
+      "src/definitions",
+      "node_modules/@types"
+    ],
+    "types": [
+      "react",
+      "node",
+      "webpack-env",
+      "chrome"
+    ],
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": [
+    "!/node_modules/@types",
+    "node_modules",
+    "dist",
+    ".*"
+  ],
+  "include": [
+    "src"
+  ]
+}

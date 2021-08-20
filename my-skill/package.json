@@ -1,0 +1,49 @@
+{
+  "name": "my-skill",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@matterway/agent-puppeteer-client": "^4.1.0",
+    "@matterway/assistant-design-system": "^3.0.0",
+    "@matterway/assistant-skill-interface": "^8.34.2",
+    "@matterway/assistant-skill-scripts": "1.6.3",
+    "@matterway/background-hooks": "^8.31.0",
+    "@matterway/background-react": "^3.1.0",
+    "@matterway/js-core-with-cleanup": "^1.2.1",
+    "@matterway/puppeteer-for-chrome": "^4.0.0",
+    "lodash-es": "^4.17.15",
+    "@types/chrome": "^0.0.120",
+    "puppeteer-core": "5.5.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "assistant-skill-scripts start",
+    "build": "assistant-skill-scripts build",
+    "test": "assistant-skill-scripts test",
+    "eject": "assistant-skill-scripts eject",
+    "skill": "assistant-skill-scripts skill",
+    "marketplace-login": "assistant-skill-scripts marketplace-login",
+    "marketplace-logout": "assistant-skill-scripts marketplace-logout",
+    "publish-skill-only": "assistant-skill-scripts publish-skill-only",
+    "publish-skill": "assistant-skill-scripts publish-skill"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.3",
+    "@testing-library/user-event": "^12.0.11",
+    "@types/jest": "^25.0.0",
+    "@types/lodash-es": "^4.17.3",
+    "@types/node": "^12.0.0",
+    "@types/react": "16.9.5",
+    "@types/react-dom": "16.9.5",
+    "@types/styled-components": "^5.1.2",
+    "typescript": "^3.7.5",
+    "yarn-deduplicate": "^3.1.0"
+  },
+  "resolutions": {
+    "@types/react": "16.9.5",
+    "@types/react-dom": "16.9.5"
+  }
+}
