@@ -1622,6 +1622,11 @@
     strip-ansi "6.0.0"
     word-wrap "1.2.3"
 
+"@matterway/interactions@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.matterway.io/@matterway%2finteractions/-/interactions-0.0.8.tgz#12a56948774992e92c9c83cada108ab5638d724b"
+  integrity sha512-/39CIQTrEGw9q7/zP5NJphQI/lvQAhaD01jl8AwC5kdDMtABK2NnJiYZaO9Zm6bK6OcqbzGxpTp/IaTvH596FA==
+
 "@matterway/js-core-with-cleanup@^1.2.1", "@matterway/js-core-with-cleanup@^1.2.4":
   version "1.2.4"
   resolved "https://registry.matterway.io/@matterway%2fjs-core-with-cleanup/-/js-core-with-cleanup-1.2.4.tgz#4c227da228d6bacb8c67c96ff20e36ba54609e48"

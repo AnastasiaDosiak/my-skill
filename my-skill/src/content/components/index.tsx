@@ -1,3 +1,4 @@
-export * from './Bubble';
-export * from './SearchResults';
-export * from './SolveCaptcha';
+export * from '@matterway/interactions/content';
+// export * from './Bubble';
+export * from './SearchBookResults';
+// export * from './SolveCaptcha';
